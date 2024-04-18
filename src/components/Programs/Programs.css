@@ -1,0 +1,118 @@
+.Programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.programs-header{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    gap: 3rem;
+    color:#FFF;
+    font-style: italic;
+}
+.two-span{
+    display: flex;
+    gap: 1rem;
+}
+.ui_color{
+    color: var(--orange);
+}
+.program-categories{
+    display: flex;
+    gap: 1rem;
+    color:white;
+}
+.category{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    gap:1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 2em rgba(250, 250, 250, 0.15);
+    transition:all 0.500ms;
+    animation: test 1s ease-in-out;
+    opacity:0;
+    justify-content: space-between;
+}
+.category:nth-child(1) {
+    animation: test 1s ease-in-out 0.5s forwards;
+  }
+  .category:nth-child(2) {
+    animation: test 1s ease-in-out 1s forwards;
+  }
+  .category:nth-child(3) {
+    animation: test 1s ease-in-out 1.5s forwards;
+  }
+  .category:nth-child(4) {
+    animation: test 1s ease-in-out 2s forwards;
+  }
+@keyframes test{
+    from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(0%);
+        opacity:1;
+      }
+}
+
+.category>:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+.category>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+.category>:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.join-now>img{
+    width: 1rem;
+}
+.join-now>:nth-child(1){
+    border: 2px solid var(--orange);
+    padding: 0.30rem 1rem;
+    position: relative;
+}
+.join-now>:nth-child(1)::before{
+    content: '';
+    width:0%;
+    height:95%;
+    color:aquamarine;
+    background-color: var(--orange);
+    position: absolute;
+    left:0;
+    top:0;
+    opacity:1;
+    transition: width 0.5s ease;
+    z-index: -1;
+    margin-top:1%;
+
+}
+.join-now>:nth-child(1):hover{
+    color: black;
+}
+.join-now>:nth-child(1):hover::before{
+    width: 100%;
+    
+}
+
+.category:hover,.category:hover>:nth-child(1) {
+    color: var(--orange);
+    fill: var(--orange);
+    cursor: pointer;
+    background: none;
+}

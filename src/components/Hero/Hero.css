@@ -1,0 +1,131 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.left-h{
+    padding: 2rem;
+    padding-top:1.5rem;
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.right-h{
+    flex:1;
+    position: relative;
+}
+.the-best-ad{
+    border: 1px solid var(--orange);
+    margin-top: 4rem;
+    background-color: #363D42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 1.25rem;
+    text-transform: uppercase;
+    color:white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.the-best-ad>div{
+    position:absolute;
+    height:3.4rem;
+    width:5rem;
+    border-radius: 4rem;
+    left:0.3rem;
+    background-color: var(--orange);
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    color:white;
+    text-overflow: inherit;
+    font-size: 4rem;
+    font-weight: bold;
+    gap:1.5rem;
+}
+.stroke{
+    color: var(--orange);
+}
+.hero-text>div:nth-child(3){
+    font-size: 1rem;
+    font-size: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    font-size: 2rem;
+}
+.figures>div>span:nth-of-type(2){
+    font-size: 1rem;
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+    align-items: center;
+}
+.hero-buttons>:nth-child(1){
+    background-color: transparent;
+    width: 8rem;
+    color:white;
+    border: 2px solid var(--orange);
+}
+.hero-buttons>:nth-child(2){
+    background-color: transparent;
+    width: 8rem;
+    color:white;
+    border: 2px solid var(--orange);
+
+}
+
+.right-h>.btn{
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: white;
+    background-color: black;
+}
+.right-h>.btn:hover{
+    background-color: var(--orange);
+    color: black;
+}
+
+.hero-image{
+    position: absolute;
+    top: 240px;
+    right: 240px;
+    width: 20rem;
+    transform: scale(1.8);
+}
+.hero-image-back{
+    position: absolute;
+    top: 10rem;
+    right: 24rem;
+    z-index: -1;
+}
+
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left:0;
+}
