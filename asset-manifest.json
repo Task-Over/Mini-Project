@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Mini-Project/static/css/main.4c018601.css",
+    "main.js": "/Mini-Project/static/js/main.c263d026.js",
+    "static/media/image_t2.png": "/Mini-Project/static/media/image_t2.05a7eb163d230cad835c.png",
+    "static/media/image_t3.png": "/Mini-Project/static/media/image_t3.f4e9c51432538c341313.png",
+    "static/media/image_1.png": "/Mini-Project/static/media/image_1.efac27224c0cf0b96077.png",
+    "static/media/image_4.png": "/Mini-Project/static/media/image_4.6ca208ba837694b7fd54.png",
+    "static/media/hero_main1.png": "/Mini-Project/static/media/hero_main1.9c530fc94d70e2599db1.png",
+    "static/media/image_t1.png": "/Mini-Project/static/media/image_t1.3c2335ba0f7122675ea3.png",
+    "static/media/image_3.png": "/Mini-Project/static/media/image_3.622782e90f4c1f46b6bd.png",
+    "static/media/image_2.png": "/Mini-Project/static/media/image_2.e1321b99ab9bb5c648f7.png",
+    "index.html": "/Mini-Project/index.html",
+    "main.4c018601.css.map": "/Mini-Project/static/css/main.4c018601.css.map",
+    "main.c263d026.js.map": "/Mini-Project/static/js/main.c263d026.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c018601.css",
+    "static/js/main.c263d026.js"
+  ]
+}
